@@ -6,7 +6,7 @@ import Update from "./assets/Update";
 
 function App() {
   return (
-   <BrowserRouter>
+   <BrowserRouter basename="/Crud-app">
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/create" element={<Create />}></Route>
